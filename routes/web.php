@@ -26,3 +26,6 @@ Route::get('auth/login', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+//Route::get('dropzone', 'HomeController@dropzone');
+Route::post('file-upload', ['as'=>'dropzone.store','uses'=>'dropzoneController@dropzoneStore']);

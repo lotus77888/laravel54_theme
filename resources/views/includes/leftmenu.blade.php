@@ -1,36 +1,45 @@
- <ul  class="nav metismenu" id="menu1">
-        <li class="{{ Request::segment(1) === 'dashboard' || 'table' ? 'active' : null }}">
-            <a class="has-arrow" href="{{ url('dashboard') }}">
-                <i class="fa fa-home" aria-hidden="true"></i>
-                <p>Dashboard</p>
-            </a>
-                  <ul aria-expanded="true">
-               <li class="{{ Request::segment(1) === 'table' ? 'active' : null }}">
-                 <a href="table">
-                   <span class="fa fa-fw fa-code-fork"></span> Fork
-                 </a>
-               </li>
-               <li>
-                 <a href="https://github.com/onokumus/metisMenu">
-                   <span class="fa fa-fw fa-star"></span> Star
-                 </a>
-               </li>
-               <li>
-                 <a href="https://github.com/onokumus/metisMenu/issues">
-                   <span class="fa fa-fw fa-exclamation-triangle"></span> Issues
-                 </a>
-               </li>
-             </ul>
-       </li>
-       <li class="{{ Request::segment(1) === 'user' ? 'active' : null }}">
-        <a href="{{ url('user') }}">
+<ul class="nav metismenu" id="menu1">
+    <li class="{{ Request::segment(1) === 'dashboard' ? 'active' : null }}">
+        <a href="{{ url('dashboard') }}">
+            <i class="fa fa-home" aria-hidden="true"></i>
+            <p>Dashboard</p>
+        </a>
+
+    </li>
+    <li class="{{ Request::segment(1) === 'user' ? 'active' : null }}">
+        <a  href="{{ url('user') }}">
             <i class="fa fa-user-o" aria-hidden="true"></i>
             <p>User Profile</p>
         </a>
     </li>
+
+    <li class="{{ Request::segment(1) === 'dropzone' ? 'active' : null }}">
+        <a class="has-arrow" href="#SS">
+            <i class="fa fa-file-o" aria-hidden="true"></i>
+            <p>Laravel Examples</p>
+        </a>
+        <ul aria-expanded="true" class="list_sty">
+            <li class="{{ Request::segment(1) === 'dropzone' ? 'active' : null }}">
+                <a href="{{ url('dropzone') }}">
+                    <span class="fa fa-angle-right" aria-hidden="true"></span> DropZone
+
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/onokumus/metisMenu">
+                    <span class="fa fa-angle-right" aria-hidden="true"></span> Star
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/onokumus/metisMenu/issues">
+                    <span class="fa fa-angle-right" aria-hidden="true"></span> Issues
+                </a>
+            </li>
+        </ul>
+    </li>
     <li class="{{ Request::segment(1) === 'table' ? 'active' : null }}">
         <a href="{{ url('table') }}">
-           <i class="fa fa-table" aria-hidden="true"></i>
+            <i class="fa fa-table" aria-hidden="true"></i>
             <p>Table List</p>
         </a>
     </li>
@@ -64,7 +73,7 @@
             <p>Upgrade to PRO</p>
         </a>
     </li>
-       <li class="{{ Request::segment(1) === 'login' ? 'active' : null }}">
+    <li class="{{ Request::segment(1) === 'login' ? 'active' : null }}">
         <a href="{{ url('auth/login') }}">
             <i class="fa fa-sign-in" aria-hidden="true"></i>
             <p>Login</p>

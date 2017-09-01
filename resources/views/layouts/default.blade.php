@@ -17,7 +17,7 @@
     <link href="{{ asset('assets/css/bootstrap.min.css')}}" rel="stylesheet" />
 
     <!-- Animation library for notifications   -->
-    <link href="{{ asset('assets/css/animate.min.css')}}" rel="stylesheet"/>
+    {{--<link href="{{ asset('assets/css/animate.min.css')}}" rel="stylesheet"/>--}}
 
     <!--  Light Bootstrap Table core CSS    -->
     <link href="{{ asset('assets/css/light-bootstrap-dashboard.css')}}" rel="stylesheet"/>
@@ -41,7 +41,7 @@
 <body id="body">
 
     <div class="wrapper">
-        <div class="sidebar" data-color="" data-image="" style="opacity: ;background: #212529;">
+        <div class="sidebar" data-color="" data-image="" style="background: #212529;">
 
     <!--
 

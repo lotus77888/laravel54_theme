@@ -26,6 +26,9 @@ mix.copy('bower_components/metisMenu/dist/metisMenu.min.css', 'public/vendors/me
 // font awesome css
 mix.copy('bower_components/components-font-awesome/css/font-awesome.min.css', 'public/vendors/fontawesome/css/');
 mix.copy('bower_components/components-font-awesome/fonts', 'public/vendors/fontawesome/fonts/');
+// Dropzone css and js
+mix.copy('bower_components/dropzone/dist/min/dropzone.min.js', 'public/vendors/dropzone/js/');
+mix.copy('bower_components/dropzone/dist/min/dropzone.min.css', 'public/vendors/dropzone/css/');
 
 
 
