@@ -1,0 +1,9 @@
+{
+    "/vendors/jquery/js/jquery.min.js": "/vendors/jquery/js/jquery.min.js",
+    "/vendors/jquery/js/jquery.slim.min.js": "/vendors/jquery/js/jquery.slim.min.js",
+    "/vendors/jquery-ui/js/jquery-ui.min.js": "/vendors/jquery-ui/js/jquery-ui.min.js",
+    "/vendors/jquery-ui/css/jquery-ui.min.css": "/vendors/jquery-ui/css/jquery-ui.min.css",
+    "/vendors/metismenu/js/metisMenu.min.js": "/vendors/metismenu/js/metisMenu.min.js",
+    "/vendors/metismenu/css/metisMenu.min.css": "/vendors/metismenu/css/metisMenu.min.css",
+    "/vendors/fontawesome/css/font-awesome.min.css": "/vendors/fontawesome/css/font-awesome.min.css"
+}

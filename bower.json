@@ -1,0 +1,23 @@
+{
+  "name": "blog_laravel",
+  "description": "admin",
+  "main": "dashboard",
+  "authors": [
+    "lotus77888 <lotus77888@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "dashboard",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "jquery-ui": "^1.12.1",
+    "metisMenu": "metismenu#^2.7.0",
+    "components-font-awesome": "^4.7.0"
+  }
+}
