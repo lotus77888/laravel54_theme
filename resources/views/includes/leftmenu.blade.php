@@ -7,27 +7,28 @@
 
     </li>
     <li class="{{ Request::segment(1) === 'user' ? 'active' : null }}">
-        <a  href="{{ url('user') }}">
+        <a href="{{ url('user') }}">
             <i class="fa fa-user-o" aria-hidden="true"></i>
             <p>User Profile</p>
         </a>
     </li>
 
-    <li class="{{ Request::segment(1) === 'dropzone' ? 'active' : null }}">
-        <a class="has-arrow" href="#SS">
+    <li class="{{ Request::is('laravel_examples') ||  Request::is('dropzone') ||Request::is('dropify') ? 'active' : null }}">
+        <a class="has-arrow" href="{{ url('laravel_examples') }}">
             <i class="fa fa-file-o" aria-hidden="true"></i>
             <p>Laravel Examples</p>
         </a>
         <ul aria-expanded="true" class="list_sty">
-            <li class="{{ Request::segment(1) === 'dropzone' ? 'active' : null }}">
+            <li class="{{ Request::is('dropzone') ? 'active' : null }}">
                 <a href="{{ url('dropzone') }}">
                     <span class="fa fa-angle-right" aria-hidden="true"></span> DropZone
 
                 </a>
             </li>
-            <li>
-                <a href="https://github.com/onokumus/metisMenu">
-                    <span class="fa fa-angle-right" aria-hidden="true"></span> Star
+            <li class="{{ Request::is('dropify') ? 'active' : null }}">
+                <a href="{{ url('dropify') }}">
+                    <span class="fa fa-angle-right" aria-hidden="true"></span> Dropify
+
                 </a>
             </li>
             <li>

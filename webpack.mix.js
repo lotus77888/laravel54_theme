@@ -29,6 +29,13 @@ mix.copy('bower_components/components-font-awesome/fonts', 'public/vendors/fonta
 // Dropzone css and js
 mix.copy('bower_components/dropzone/dist/min/dropzone.min.js', 'public/vendors/dropzone/js/');
 mix.copy('bower_components/dropzone/dist/min/dropzone.min.css', 'public/vendors/dropzone/css/');
+// dropify cs  nd js
+mix.copy('bower_components/dropify/dist/css/dropify.css', 'public/vendors/dropify/css/');
+mix.copy('bower_components/dropify/dist/js/dropify.min.js', 'public/vendors/dropify/js/');
+mix.copy('bower_components/dropify/dist/fonts', 'public/vendors/dropify/fonts/');
+
+
+
 
 
 

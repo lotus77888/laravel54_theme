@@ -7,5 +7,7 @@
     "/vendors/metismenu/css/metisMenu.min.css": "/vendors/metismenu/css/metisMenu.min.css",
     "/vendors/fontawesome/css/font-awesome.min.css": "/vendors/fontawesome/css/font-awesome.min.css",
     "/vendors/dropzone/js/dropzone.min.js": "/vendors/dropzone/js/dropzone.min.js",
-    "/vendors/dropzone/css/dropzone.min.css": "/vendors/dropzone/css/dropzone.min.css"
+    "/vendors/dropzone/css/dropzone.min.css": "/vendors/dropzone/css/dropzone.min.css",
+    "/vendors/dropify/css/dropify.css": "/vendors/dropify/css/dropify.css",
+    "/vendors/dropify/js/dropify.min.js": "/vendors/dropify/js/dropify.min.js"
 }
