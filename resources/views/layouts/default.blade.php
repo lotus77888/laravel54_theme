@@ -34,7 +34,7 @@
     <!--     Fonts and icons     -->
     <link href="{{ asset('vendors/fontawesome/css/font-awesome.min.css') }}" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
-    <link href="{{ asset('assets/css/pe-icon-7-stroke.css')}}" rel="stylesheet" />
+    {{--<link href="{{ asset('assets/css/pe-icon-7-stroke.css')}}" rel="stylesheet" />--}}
     @yield('links')
 
 </head>
@@ -95,13 +95,13 @@
 <script src="{{ asset('assets/js/bootstrap-checkbox-radio-switch.js')}}"></script>
 
 <!--  Charts Plugin -->
-<!-- <script src="{{ asset('assets/js/chartist.min.js')}}"></script> -->
+{{--<script src="{{ asset('assets/js/chartist.min.js')}}"></script>--}}
 
 <!--  Notifications Plugin    -->
-<script src="{{ asset('assets/js/bootstrap-notify.js')}}"></script>
+{{--<script src="{{ asset('assets/js/bootstrap-notify.js')}}"></script>--}}
 
 <!--  Google Maps Plugin    -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+{{--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>--}}
 
 <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
 <script src="{{ asset('assets/js/light-bootstrap-dashboard.js')}}"></script>
@@ -114,19 +114,8 @@
 <script type="text/javascript">
    $(document).ready(function(){
 
-  
-
    $('#menu1').metisMenu();
-   demo.initChartist();
 
-   $.notify({
-       icon: 'pe-7s-gift',
-       message: "Welcome to <b>Light Bootstrap Dashboard</b> - a beautiful freebie for every web developer."
-
-   },{
-    type: 'info',
-    timer: 4000
-});
 });
        
 </script>

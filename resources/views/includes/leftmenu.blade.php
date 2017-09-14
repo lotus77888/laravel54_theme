@@ -31,11 +31,6 @@
 
                 </a>
             </li>
-            <li>
-                <a href="https://github.com/onokumus/metisMenu/issues">
-                    <span class="fa fa-angle-right" aria-hidden="true"></span> Issues
-                </a>
-            </li>
         </ul>
     </li>
     <li class="{{ Request::segment(1) === 'table' ? 'active' : null }}">
